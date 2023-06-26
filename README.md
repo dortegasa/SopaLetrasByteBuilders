@@ -57,6 +57,9 @@ Esta función recibe una matriz, una palabra y una posición inicial (fila y col
 
 Esta es la función principal del programa. Solicita al usuario el tamaño de la sopa de letras, la lista de palabras a buscar y muestra la sopa de letras resultante. Luego, permite al usuario ingresar coordenadas para buscar las palabras en la sopa.
 
+![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/e311654e-0b5d-4773-9570-cfe0d371f111)
+![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/670cd5ef-ef30-4e67-a5f3-dfd2e52a3f1a)
+
 ## Uso del código
 
 El código se ejecuta desde la función `main()`, que se llama al final del script utilizando la construcción `if __name__ == "__main__":`.
