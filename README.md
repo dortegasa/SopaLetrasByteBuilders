@@ -49,6 +49,3 @@ Cada miembro del equipo contribuyó en diferentes aspectos del desarrollo, como 
 
 ---
 
-Recuerda que este ejemplo es solo una guía, y puedes personalizar y ampliar la explicación de acuerdo a tus necesidades y decisiones de diseño específicas. Asegúrate de proporcionar información clara y concisa sobre la solución implementada.
-
-Espero que esto te ayude a crear el archivo "explicacion.md" en tu repositorio. ¡Buena suerte con tu proyecto!
