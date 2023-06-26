@@ -1,4 +1,5 @@
 # Sopa de Letras en Python ByteBuilders
+
 ![image](https://user-images.githubusercontent.com/124606636/225486236-e4618eec-16f2-465f-b317-142d70c5942e.png)
 
 Creamos un  programa en Python que genera una sopa de letras y permite al usuario buscar palabras en ella. A continuación, se explica el código y la función de cada parte.
@@ -19,6 +20,7 @@ Es una cadena formada por una secuencia de caracteres individuales.
 ### `crear_matriz(filas, columnas)`
 
 Esta función recibe el número de filas y columnas y devuelve una matriz vacía con el tamaño especificado. La matriz se representa como una lista de listas, donde cada elemento representa una celda en la sopa de letras.
+
 ![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/427b2809-e6a7-4cca-9532-1e9102b6531b)
 
 ### `mostrar_matriz(matriz)`
