@@ -3,6 +3,12 @@
 
 Creamos un  programa en Python que genera una sopa de letras y permite al usuario buscar palabras en ella. A continuación, se explica el código y la función de cada parte.
 
+## Librerias 
+Random
+La biblioteca random contiene una serie de funciones relacionadas con los valores aleatorios
+String
+Es una cadena formada por una secuencia de caracteres individuales.
+
 ## Funciones
 
 ### `crear_matriz(filas, columnas)`
