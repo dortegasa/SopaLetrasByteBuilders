@@ -40,9 +40,8 @@ Para utilizar el programa, se debe ejecutar el archivo `sopa_de_letras.py` en la
 
 ## Colaboradoress
 
-- [Nombre del colaborador 1](enlace-al-perfil-github)
-- [Nombre del colaborador 2](enlace-al-perfil-github)
-- [Nombre del colaborador 3](enlace-al-perfil-github)
-- [Nombre del colaborador 4](enlace-al-perfil-github)
+- [David Alejandro Dortegasa Sanchez](https://github.com/dortegasa)
+- [Julian Alejandro Lopez Pardo](https://github.com/julopezpa)
+- [Carlos Eduardo Villamil Bejarno](https://github.com/crlos-16)
 
 
