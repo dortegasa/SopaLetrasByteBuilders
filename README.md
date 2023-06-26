@@ -42,6 +42,7 @@ Para utilizar el programa, se debe ejecutar el archivo `sopa_de_letras.py` en la
 
 - Alejandro Ortega(https://github.com/dortegasa)
 - Julian Lopez(https://github.com/julopezpa)
-- Carlos Vellamil()
+- Carlos Villamil Bejarano(https://github.com/crlos-16)
+  
 
 
