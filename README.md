@@ -38,6 +38,7 @@ Esta es la función principal del programa. Solicita al usuario el tamaño de la
 El código se ejecuta desde la función `main()`, que se llama al final del script utilizando la construcción `if __name__ == "__main__":`.
 
 Para utilizar el programa, se debe ejecutar el archivo `sopa_de_letras.py` en la línea de comandos o terminal. A continuación, se solicitará al usuario ingresar el tamaño de la sopa de letras, las palabras a buscar y las coordenadas para buscar las palabras. Se mostrará la sopa de letras final y las palabras encontradas.
+
 Es necesario importar las librerias de Random y String 
 
 ## Colaboradores
