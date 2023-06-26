@@ -1,4 +1,5 @@
-# Sopa de Letras en Python
+# Sopa de Letras en Python ByteBuilders
+![image](https://user-images.githubusercontent.com/124606636/225486236-e4618eec-16f2-465f-b317-142d70c5942e.png)
 
 Este es un programa en Python que genera una sopa de letras y permite al usuario buscar palabras en ella. A continuación, se explica el código y la función de cada parte.
 
