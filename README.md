@@ -4,10 +4,13 @@
 Creamos un  programa en Python que genera una sopa de letras y permite al usuario buscar palabras en ella. A continuación, se explica el código y la función de cada parte.
 
 ## Librerias 
-### Random
+###  Random
 La biblioteca random contiene una serie de funciones relacionadas con los valores aleatorios
-### String
+![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/9a380ca5-609e-430b-a9cb-13fdc311e5a7)
+
+###  String
 Es una cadena formada por una secuencia de caracteres individuales.
+![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/1aeb4b03-12e5-4bf2-9c34-59ed48a400ce)
 
 ## Funciones
 
