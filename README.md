@@ -24,6 +24,7 @@ Esta función recibe una matriz y la imprime en la consola, mostrando la sopa de
 ### `colocar_palabra(matriz, palabra, fila, columna, direccion)`
 
 Esta función recibe una matriz, una palabra, una posición inicial (fila y columna) y una dirección (horizontal, vertical o diagonal). Intenta colocar la palabra en la matriz siguiendo la dirección especificada. Devuelve `True` si la palabra se pudo colocar correctamente y `False` en caso contrario.
+
 ![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/9f35b823-f234-4180-80f1-5f9c5b3ea67c)
 
 ### `llenar_espacios_vacios(matriz)`
