@@ -1,51 +1,48 @@
-# Sopa de Letras con Python
+# Sopa de Letras en Python
 
-Este repositorio contiene una aplicación en Python que emula el juego de la sopa de letras. La aplicación permite al usuario generar una matriz de letras y buscar palabras en ella. En este archivo, se proporciona una explicación de la solución implementada, se describe cómo se abordó el problema y se incluyen detalles sobre la instalación y uso del desarrollo.
+Este es un programa en Python que genera una sopa de letras y permite al usuario buscar palabras en ella. A continuación, se explica el código y la función de cada parte.
 
-## Explicación de la Solución
+## Funciones
 
-La solución implementada consiste en una aplicación interactiva en la consola que cumple con las siguientes características:
+### `crear_matriz(filas, columnas)`
 
-- **Generación de la matriz**: La función `crear_matriz` se encarga de generar una matriz vacía con el tamaño especificado por el usuario. La matriz se representa como una lista de listas, donde cada lista interna representa una fila de la matriz.
+Esta función recibe el número de filas y columnas y devuelve una matriz vacía con el tamaño especificado. La matriz se representa como una lista de listas, donde cada elemento representa una celda en la sopa de letras.
 
-- **Colocación de palabras**: Utilizando la función `colocar_palabra`, las palabras ingresadas por el usuario se colocan aleatoriamente en la matriz. La función verifica si la palabra puede ser colocada en la dirección especificada (horizontal, vertical o diagonal) y realiza las modificaciones necesarias en la matriz.
+### `mostrar_matriz(matriz)`
 
-- **Llenado de espacios vacíos**: Los espacios vacíos en la matriz se llenan con letras aleatorias utilizando la función `llenar_espacios_vacios`. Esta función utiliza el módulo `random` de Python para seleccionar letras mayúsculas al azar y reemplazar los espacios vacíos en la matriz.
+Esta función recibe una matriz y la imprime en la consola, mostrando la sopa de letras.
 
-- **Búsqueda de palabras**: La función `buscar_palabra` recorre la matriz para buscar una palabra específica ingresada por el usuario. Se verifican todas las direcciones (horizontal, vertical y diagonal) desde cada posición de la matriz. Si se encuentra una coincidencia, se utiliza la función `colocar_palabra` para verificar si la palabra se encuentra completa en la dirección específica.
+### `colocar_palabra(matriz, palabra, fila, columna, direccion)`
 
-- **Interacción con el usuario**: Durante la búsqueda de palabras, el programa solicita al usuario ingresar las coordenadas (fila, columna) de una letra en la matriz. Se verifica la validez de las coordenadas y se comprueba si la letra coincide con alguna palabra. En caso afirmativo, se muestra un mensaje y se elimina la palabra de la lista de palabras restantes.
+Esta función recibe una matriz, una palabra, una posición inicial (fila y columna) y una dirección (horizontal, vertical o diagonal). Intenta colocar la palabra en la matriz siguiendo la dirección especificada. Devuelve `True` si la palabra se pudo colocar correctamente y `False` en caso contrario.
 
-## Diagrama de Flujo
+### `llenar_espacios_vacios(matriz)`
 
-A continuación se presenta un diagrama de flujo que resume el funcionamiento de la aplicación:
+Esta función recibe una matriz parcialmente llena y la completa con letras aleatorias en las celdas vacías. Utiliza el módulo `string` para obtener el alfabeto en mayúsculas y selecciona una letra al azar para cada celda vacía.
 
-![Diagrama de Flujo](diagrama_flujo.png)
+### `buscar_palabra(matriz, palabra)`
 
-## Instalación y Uso del Desarrollo
+Esta función recorre la matriz en busca de la primera letra de la palabra especificada. Luego, llama a `buscar_palabra_direccion` para intentar encontrar la palabra en todas las direcciones posibles (horizontal, vertical y diagonal). Devuelve `True` si encuentra la palabra y `False` en caso contrario.
 
-Para utilizar la aplicación, sigue estos pasos:
+### `buscar_palabra_direccion(matriz, palabra, fila, columna)`
 
-1. Asegúrate de tener Python instalado en tu sistema.
+Esta función recibe una matriz, una palabra y una posición inicial (fila y columna). Intenta colocar la palabra en la matriz en todas las direcciones posibles y devuelve `True` si la encuentra en alguna dirección y `False` en caso contrario.
 
-2. Clona este repositorio en tu máquina local o descárgalo como archivo ZIP y descomprímelo.
+### `main()`
 
-3. Navega hasta el directorio del proyecto en tu terminal o entorno de desarrollo.
+Esta es la función principal del programa. Solicita al usuario el tamaño de la sopa de letras, la lista de palabras a buscar y muestra la sopa de letras resultante. Luego, permite al usuario ingresar coordenadas para buscar las palabras en la sopa.
 
-4. Ejecuta el archivo `sopa_de_letras.py` con el siguiente comando:
+## Uso del código
 
+El código se ejecuta desde la función `main()`, que se llama al final del script utilizando la construcción `if __name__ == "__main__":`.
 
-5. Sigue las instrucciones en la consola para ingresar el tamaño de la matriz, las palabras y buscarlas en la sopa de letras generada.
+Para utilizar el programa, se debe ejecutar el archivo `sopa_de_letras.py` en la línea de comandos o terminal. A continuación, se solicitará al usuario ingresar el tamaño de la sopa de letras, las palabras a buscar y las coordenadas para buscar las palabras. Se mostrará la sopa de letras final y las palabras encontradas.
 
 ## Colaboradores
 
-Este proyecto fue desarrollado de forma colaborativa por los siguientes miembros del equipo:
+- [Nombre del colaborador 1](enlace-al-perfil-github)
+- [Nombre del colaborador 2](enlace-al-perfil-github)
+- [Nombre del colaborador 3](enlace-al-perfil-github)
+- [Nombre del colaborador 4](enlace-al-perfil-github)
 
-- [Nombre del colaborador 1](enlace al perfil de GitHub)
-- [Nombre del colaborador 2](enlace al perfil de GitHub)
-- [Nombre del colaborador 3](enlace al perfil de GitHub)
-
-Cada miembro del equipo contribuyó en diferentes aspectos del desarrollo, como la implementación de funciones, pruebas y mejoras del código.
-
----
 
