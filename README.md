@@ -38,7 +38,7 @@ El código se ejecuta desde la función `main()`, que se llama al final del scri
 
 Para utilizar el programa, se debe ejecutar el archivo `sopa_de_letras.py` en la línea de comandos o terminal. A continuación, se solicitará al usuario ingresar el tamaño de la sopa de letras, las palabras a buscar y las coordenadas para buscar las palabras. Se mostrará la sopa de letras final y las palabras encontradas.
 
-## Colaboradores
+## Colaboradoress
 
 - [Nombre del colaborador 1](enlace-al-perfil-github)
 - [Nombre del colaborador 2](enlace-al-perfil-github)
