@@ -6,10 +6,12 @@ Creamos un  programa en Python que genera una sopa de letras y permite al usuari
 ## Librerias 
 ###  Random
 La biblioteca random contiene una serie de funciones relacionadas con los valores aleatorios
+
 ![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/9a380ca5-609e-430b-a9cb-13fdc311e5a7)
 
 ###  String
 Es una cadena formada por una secuencia de caracteres individuales.
+
 ![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/1aeb4b03-12e5-4bf2-9c34-59ed48a400ce)
 
 ## Funciones
@@ -22,6 +24,7 @@ Esta función recibe el número de filas y columnas y devuelve una matriz vacía
 ### `mostrar_matriz(matriz)`
 
 Esta función recibe una matriz y la imprime en la consola, mostrando la sopa de letras.
+
 ![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/f49859b2-9e86-45f6-a8cc-3d2d1a427d22)
 
 ### `colocar_palabra(matriz, palabra, fila, columna, direccion)`
@@ -33,6 +36,7 @@ Esta función recibe una matriz, una palabra, una posición inicial (fila y colu
 ### `llenar_espacios_vacios(matriz)`
 
 Esta función recibe una matriz parcialmente llena y la completa con letras aleatorias en las celdas vacías. Utiliza el módulo `string` para obtener el alfabeto en mayúsculas y selecciona una letra al azar para cada celda vacía.
+
 ![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/9543bd29-2952-44db-b1de-367f2d89ecc7)
 
 ### `buscar_palabra(matriz, palabra)`
@@ -44,6 +48,7 @@ Esta función recorre la matriz en busca de la primera letra de la palabra espec
 ### `buscar_palabra_direccion(matriz, palabra, fila, columna)`
 
 Esta función recibe una matriz, una palabra y una posición inicial (fila y columna). Intenta colocar la palabra en la matriz en todas las direcciones posibles y devuelve `True` si la encuentra en alguna dirección y `False` en caso contrario.
+
 ![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/a7234573-de13-4add-97b3-7af653f9dc02)
 
 ### `main()`
