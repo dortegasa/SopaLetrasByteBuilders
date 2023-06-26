@@ -38,6 +38,7 @@ Esta función recibe una matriz parcialmente llena y la completa con letras alea
 ### `buscar_palabra(matriz, palabra)`
 
 Esta función recorre la matriz en busca de la primera letra de la palabra especificada. Luego, llama a `buscar_palabra_direccion` para intentar encontrar la palabra en todas las direcciones posibles (horizontal, vertical y diagonal). Devuelve `True` si encuentra la palabra y `False` en caso contrario.
+
 ![image](https://github.com/dortegasa/SopaLetrasByteBuilders/assets/124606636/5a38ac93-cc24-4ec4-b743-5117cbf3e099)
 
 ### `buscar_palabra_direccion(matriz, palabra, fila, columna)`
